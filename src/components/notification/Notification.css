@@ -1,0 +1,46 @@
+.notification__container {
+   position: fixed;
+   top: 20px;
+   right: -100%;
+   transition: all 0.3s;
+
+   padding: 20px 20px;
+   border-radius: 5px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+   z-index: 3000;
+
+   display: flex;
+
+
+}
+.notification__container.active {
+   right: 20px;
+}
+
+.notification__container.default {
+   background: #f6eb8b;
+}
+
+.notification__container.succes {
+   background: #74ec92;
+}
+
+.notification__container.error {
+   background: #e66b6b;
+   color: white;
+}
+.notification__container.modifier {
+   background: #dee66b;
+   color: white;
+}
+
+
+.notification__container .icon {
+   margin-right: 12px;
+}
+
+.notification__container .notification__message {
+   font-size: 16px;
+}

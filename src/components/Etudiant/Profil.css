@@ -1,0 +1,77 @@
+.content_profil_Etud{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.content_profil_Etud .profil_Etud .image_profil img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+.content_profil_Etud .profil_Etud{
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px 25px;
+
+}
+
+.content_profil_Etud .image_profil{
+    display: flex;
+    flex-direction: column;
+
+}
+.profil_Etud input{
+    border: none;
+    outline: none;
+    font-weight: 800;
+    text-transform: capitalize ; 
+    font-size: 15px;
+    
+}
+.content_profil_Etud .profil_Etud .nom_Etud{
+    text-transform: uppercase;
+}
+.iformation_detaill{
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px 30px;
+    width: 600px;
+    line-height: 1.8;
+}
+.iformation_detaill h3{
+    background-color: antiquewhite;
+    border-left:3px solid red ;
+    padding: 5px ;
+    width: 100%;
+    letter-spacing: 1.2px;
+
+}
+.iformation_detaill .detaill{
+   
+    margin-left: 10px;
+    
+}
+.iformation_detaill .detaill span{
+    font-size: medium;
+    color: rgb(61, 60, 60);
+}
+
+.content_profil_Etud .profil_Etud .iformation_detaill .change-password{
+    display: flex;
+    justify-content: flex-end;
+}
+.content_profil_Etud .profil_Etud .iformation_detaill .change-password button{
+    border :0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+.content_profil_Etud .profil_Etud .iformation_detaill .change-password button:hover{
+    color: #1E90FF;
+   
+}
+
+.error_password{
+    color: red;
+    font-size: 13px;
+}

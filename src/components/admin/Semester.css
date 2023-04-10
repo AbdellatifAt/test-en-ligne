@@ -1,0 +1,99 @@
+/* .semestre-admin .all-Semester {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.semestre-admin .all-Semester .Semester {
+    background-color: bisque;
+    text-align: center;
+} */
+
+/*   ---------------- */
+.semestre-admin{
+    width: 100%;
+    padding:  30px 0;
+
+    
+}
+
+.semestre-admin .all-Semester{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F0F0;
+    width:60% ;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    
+
+    
+}
+
+.semestre-admin .all-Semester .sem{
+    
+    width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #202124;
+    padding: 7px;
+    margin-bottom: 20px;
+    border:#888888 solid 2px;
+    border-radius: 5px;
+}
+.semestre-admin .ajouter{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.semestre-admin .ajouter button{
+    margin-right: -40px;
+}
+
+
+.btns-semester button{
+    border: 0 ;
+    font-size: 18px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+/* 
+
+/*  button add */
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg,#4ca9c5 0%, #B0E0E6 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em  #4ca9c5;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+   }
+   
+   .cssbuttons-io-button i {
+    margin-right: 6px;
+   }
+   
+   .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #4ca9c5;
+   }
+   
+   .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #4ca9c5;
+   }
+/*  button add */
+.Semester .nom_semester:hover{
+    color: cornflowerblue;
+
+}
+

@@ -1,0 +1,44 @@
+ .nav-contain {
+     height: auto;
+     background-color:white;
+     display: flex;
+     align-items: center;
+     width: 100%;
+     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+ }
+ 
+ .nav-div {
+     display: flex;
+     align-items: center;
+     width: 90%;
+     margin: auto;
+ }
+ 
+ .nav-div .links {
+     margin-left: 45%;
+     display: flex;
+     gap: 25px;
+ }
+ .log-out-btn-nav{
+     margin-right: 20px;
+     border: 0;
+     background-color: transparent;
+ }
+
+ .log-out-btn-nav i {
+    font-size: 20px;
+}
+
+
+.active{
+    color:cornflowerblue;
+}
+
+.log-out-btn-nav:hover{
+    color: brown;
+    transform: scale(1.2);
+}
+
+.logo img{
+    height: 50px;
+}

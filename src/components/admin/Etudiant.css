@@ -1,0 +1,40 @@
+.form-exel{
+    position: absolute;
+    left: 20px;
+    top : 60px
+}
+.btn_apload_file{
+    border: 0 ; 
+    background-color: transparent;
+    font-size: 31.5px;
+    position: relative;
+    top:1px;
+    left: -2px;
+
+}
+.content-btn-icon{
+    display: flex;
+    align-items: center;
+}
+
+.btn-create {
+    border: 2px solid white;
+    
+    background: linear-gradient(0deg,#ccc 0%, #ccc 100%);
+    cursor: pointer;
+    padding: 6px 8px;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+   }
+   .btn-create i {
+       padding-right: 2px;
+   }
+   
+   .btn-create span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+   }
+   

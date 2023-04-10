@@ -1,0 +1,50 @@
+.container-home_ens .staticContent1{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.statique_etud_sem{
+   background-color:white;
+}
+.container-home_ens .staticContent1 .statique_etud_sem2{
+    width: 600px;
+    border: 1px solid #ccc;
+    position: relative;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.container-home_ens .staticContent1 .statique_etud_sem2 .tittle_static span{
+    color:cornflowerblue;
+    font-size: 17px;
+  
+  }
+.content_next_test {
+    text-align: center;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 
+}
+.content_next_test .date_recent_test{
+    background-color: #F0F0F0;
+    height: 50px;
+    display: flex;
+    padding: 0 50px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.content_next_test .date_recent_test span{
+    /* font-size: px; */
+    color: cornflowerblue;
+    font-weight: 600;
+    margin: 0 5px;
+}

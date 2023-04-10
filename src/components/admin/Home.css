@@ -1,0 +1,80 @@
+.home-admin .statique_admin{
+    display: flex;
+    justify-content: space-around;
+}
+.home-admin{
+    background-color: aliceblue;
+    height:100vh ;
+}
+.home-admin .statique_admin div{
+    margin-top: 30px;
+    background-color: #F0F0F0;
+    height: 80px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    color :black ;
+    padding: 5px 0;
+}
+.home-admin .statique_admin div span {
+    display: block;
+    width: 100%;
+    border-bottom: 0.8px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: cornflowerblue;
+    font-weight: 600;
+}
+.staticContent{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 100px 100px;
+}
+
+.statique_etud_sem{
+    position: relative;
+    width: 700px ;
+    border: 0.8px solid #ccc;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.tittle_static{
+    position:absolute;
+    font-size: 15px;
+    top: 0;
+    left: 0;
+    z-index: 10000;  
+    background-color: white;
+    border-bottom: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    padding:5px ;
+
+}
+.tittle_static span{
+    color: cornflowerblue;
+    font-size: 16px;
+}
+ .canvasdelete{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color:white;
+    width: 100px;
+    height: 20px;
+    padding:8px;
+}
+
+.Calendrier__graphe {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+   
+}
+

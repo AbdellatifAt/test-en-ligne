@@ -1,0 +1,136 @@
+profil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container_formulaire{
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+   
+}
+
+.forme_boxes{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    margin: 5vh auto;
+    text-align: center;
+}
+
+.forme_boxes .box_left{
+    background-image: linear-gradient(cornflowerblue,rgb(67, 117, 210),rgb(36, 98, 212));
+    display: grid;
+    place-content: center;
+    color: white;
+    padding: 0 10px;
+    
+}
+.forme_boxes .box_left h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.forme_boxes .box_left p{
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 30px;
+
+}
+.forme_boxes .box_left p span{
+    font-size: 15px;
+    font-weight: 300;
+}
+.forme_boxes .box_left button{
+    background-color: transparent;
+    border: 1px white solid;
+    width: 200px;
+    padding:15px 30px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.forme_boxes .box_left button:hover{
+    opacity: 1;
+}
+
+.forme_boxes .box_right{
+    display: grid;
+    place-content: center;
+    padding : 0 40px;
+    border: 2px solid cornflowerblue ;
+    border-left: none;
+}
+.forme_boxes .box_right h2{
+    color: cornflowerblue;
+    font-size: 32px;
+    margin-bottom:50px ;
+}
+.forme_boxes .box_right p{
+    font-size: 13px;
+    color: rgb(150, 148, 148);
+    margin-bottom: 10px;
+    
+}
+
+.forme_boxes .box_right input{
+    width: 500px;
+    border:none;
+    background-color: rgb(228, 227, 227);
+    padding: 10px 20px ;
+    margin-top: 10px;
+    outline: none;
+}
+
+
+.forme_boxes .box_right input[type="submit"]{
+    width: 250px;
+    background-color: cornflowerblue;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: white; 
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:991px) {
+    body{
+        margin: 0 auto;
+    }
+   .container_formulaire{
+       max-width: 98%
+   }
+   form{
+    max-width: 600px;
+   } 
+  
+   .forme_boxes{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .forme_boxes .box_left{
+       height: 100vh;
+       padding: 40px;
+       
+   }
+   .forme_boxes .box_right{
+       height: 100vh;
+       padding: 40px;
+       border: 2px solid cornflowerblue ;
+   }
+
+
+}
+.erreurAuthentification{
+    color: red;
+    font-size: 13px;
+}
+

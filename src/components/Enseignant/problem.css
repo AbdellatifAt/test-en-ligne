@@ -1,0 +1,239 @@
+.problem{
+    width: 90%;
+    
+    margin: 0 auto;
+}
+.content_all_probles{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content_btn_ajouter_problem{
+    display: flex;
+    justify-content: space-between;
+}
+.all_problem_ens{
+    text-align: center;
+    border: 1px solid black;
+    width: 98%;
+    padding-bottom: 20px;
+}
+
+.all_problem_ens p{
+    padding: 15px;
+    color: rgb(62, 61, 61);
+}
+
+.all_problem_ens embed{
+    border: 1px solid black;
+   
+}
+.content_btn_ajouter_problem button{
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+/*  */
+
+.btn__problem {
+ --color:  rgb(50, 54, 57);;
+ --color2:#fff;
+ padding: 0.8em 1.75em;
+ background-color: transparent;
+ border-radius: 6px;
+ border: .3px solid var(--color);
+ transition: .5s;
+ position: relative;
+ overflow: hidden;
+ cursor: pointer;
+ z-index: 1;
+ font-weight: 300;
+ font-size: 17px;
+ font-family: 'Roboto', 'Segoe UI', sans-serif;
+ text-transform: uppercase;
+ color: var(--color);
+ width: 200px;
+}
+
+.btn__problem::after, .btn__problem::before {
+ content: '';
+ display: block;
+ height: 100%;
+ width: 100%;
+ transform: skew(90deg) translate(-50%, -50%);
+ position: absolute;
+ inset: 50%;
+ left: 25%;
+ z-index: -1;
+ transition: .5s ease-out;
+ background-color: var(--color);
+}
+
+.btn__problem::before {
+ top: -50%;
+ left: -25%;
+ transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn__problem:hover::before {
+ transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn__problem:hover::after {
+ transform: skew(45deg) translate(-50%, -50%);
+}
+
+.btn__problem:hover {
+ color: var(--color2);
+}
+
+.btn__problem:active {
+ filter: brightness(.7);
+ transform: scale(.98);
+}
+.content_btn_problem{
+    margin-top: 10px;
+}
+.content_btn_problem button{
+    margin-left: 10px;
+}
+/*  */
+
+.btn_demande_accepter{
+    background-color: transparent;
+    font-size: 20px;
+    color: green;
+    border: 0;
+}
+
+/* btn consulter les dommandes */
+/* From uiverse.io by @barisdogansutcu */
+.container_btn_consult_demande{
+  
+    display: flex; ; 
+    justify-content: flex-end;
+}
+.btn_consulte_demande {
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(50, 54, 57);
+    border: solid 4px  rgb(50, 54, 57);
+    font-family: inherit;
+   }
+   
+   
+   .default-btn,.hover-btn {
+    background-color: rgb(50, 54, 57);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease;
+   }
+   
+   .hover-btn {
+    position: absolute;
+    inset: 0;
+    background-color: white;
+    
+    transform: translate(0%,100%);
+   }
+   
+   .default-btn span {
+    color: hsl(0, 0%, 100%);
+   }
+   
+   .hover-btn span {
+    color: black;
+   }
+   
+   .btn_consulte_demande:hover .default-btn {
+    transform: translate(0%,-100%);
+   }
+   
+   .btn_consulte_demande:hover .hover-btn {
+    transform: translate(0%,0%);
+   }
+   .default-btn i{
+       color: aliceblue;
+   }
+/* btn consulter les dommandes */
+.content_btn_ajouter_problem .add-btn-admin{
+    background-color:  rgb(50, 54, 57);
+    border: 1px solid  rgb(50, 54, 57);
+}
+
+.inpRelat{
+    position: relative;
+}
+
+.btnAbs{
+    position: absolute; 
+    left: 15px;
+    top: 15px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #234567;
+    font-size: 15px;
+}
+.btn_resCompetition{
+    background-color:  rgb(50, 54, 57);
+    width: 200px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+
+}
+
+/* css input note */
+
+.inputNote{
+    border: none ;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    width: 80px;
+    text-align: center;
+}
+
+.btn_save_note{
+    border: 0;
+    background-color: transparent;
+    color: rgb(161, 158, 158);
+    font-size: 20px;
+    cursor: pointer;
+}
+.form_content_note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+/* css input note */
+
+.link_reponse_problem{
+    text-decoration: underline;
+    color: #234567;
+}
+.link_reponse_problem:hover{
+    text-decoration: none; 
+    color: cornflowerblue;
+}

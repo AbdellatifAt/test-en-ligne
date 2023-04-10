@@ -1,0 +1,96 @@
+.chapitre_ENS{
+    width: 100%;
+    padding:  30px 0;
+
+    
+}
+
+.chapitre_ENS .chapitres-ens{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width:60% ;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    
+
+    
+}
+
+.chapitre_ENS .chapitres-ens .chap{
+    
+    width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #202124;
+    padding: 7px;
+    margin-bottom: 20px;
+    border:#4ca9c5 solid 2px;
+    border-radius: 5px;
+}
+.chapitre_ENS .ajouter{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.chapitre_ENS .ajouter button{
+    margin-right: -40px;
+}
+
+
+/*  button add */
+.cssbuttons-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: black;
+    background: #ad5389;
+    background: linear-gradient(0deg,#C8C8C8 0%, #D8D8D8 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em  #D8D8D8;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+   }
+   
+   .cssbuttons-button i {
+    margin-right: 6px;
+   }
+   
+   .cssbuttons-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #808080;
+   }
+   
+   .cssbuttons-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #808080;
+   }
+/*  button add */
+
+.btns_chapitres button{
+    border: 0 ;
+    font-size: 18px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.btns_chapitres button{
+    font-size: 25px;
+   padding:0  10px;
+    margin-top: 10px;
+}
+
+.btns_chapitres .btn_modifier {
+    color: green;
+}
+
+.btns_chapitres .btn_supprimer{
+    color: red;
+}
+
+

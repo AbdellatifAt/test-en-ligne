@@ -1,0 +1,209 @@
+.form-inscription{
+    border: rgba(0, 0, 0, 0.2) 1px solid;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: #f0f0f0;
+    padding: 40px 0;
+    
+    
+}
+
+.decorated select{
+  width: 500px;
+  height: 30px;
+  border: none;
+  outline: 2px solid #ccc;
+
+}
+
+.selectMultiple select{
+  width: 500px;
+  border: none;
+  outline: 2px solid #ccc;
+}
+.InscriptionContainer{
+  width:100%;
+  height: 60vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+/*  */
+
+.btn__insciption {
+  --color:  rgb(137, 133, 133);
+  --color2:#fff;
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid var(--color);
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  text-transform: uppercase;
+  color: var(--color);
+  width: 200px;
+ }
+ 
+ .btn__insciption::after, .btn__insciption::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: .5s ease-out;
+  background-color: var(--color);
+ }
+ 
+ .btn__insciption::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn__insciption:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+ }
+ 
+ .btn__insciption:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+ }
+ 
+ .btn__insciption:hover {
+  color: var(--color2);
+ }
+ 
+ .btn__insciption:active {
+  filter: brightness(.7);
+  transform: scale(.98);
+ }
+ 
+ /*  */
+
+ .Content_btn_inscription_file{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ }
+
+ .content__inscription{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ .content__inscription label{
+  color: rgb(50, 54, 57);
+  font-size: 16px;
+ }
+
+
+
+
+
+ .import_test {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+.import_test form{
+  display: flex;
+  align-items: center;
+}
+.import_test form button {
+  margin-right: 10px;
+  ;
+}
+
+/* btn apload file */
+/* From uiverse.io by @barisdogansutcu */
+.apload_file_inscription {
+  position: relative;
+  border-width: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  z-index: 1;
+ }
+ 
+ .apload_file_inscription .docs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 10px;
+  border-radius: 4px;
+  z-index: 1;
+  background-color: #f0f0f0;
+  border: solid 1px #e8e8e82d;
+  color: #253849;
+  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+ }
+ 
+ .apload_file_inscription:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ 
+.apload_file_inscription .download {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+  z-index: -1;
+  border-radius: 4px;
+  transform: translateY(0%);
+  background-color:  rgb(172, 166, 166);
+  border: solid 1px #01e0572d;
+  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+ }
+ 
+ .apload_file_inscription:hover .download {
+  transform: translateY(100%)
+ }
+ 
+ .apload_file_inscription.download svg polyline,.download i line {
+  animation: docs 1s infinite;
+ }
+ 
+ @keyframes docs {
+  0% {
+   transform: translateY(0%);
+  }
+ 
+  50% {
+   transform: translateY(-15%);
+  }
+ 
+  100% {
+   transform: translateY(0%);
+  }
+ }
+/* btn apload file */
+
+
+
+ 

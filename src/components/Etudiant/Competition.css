@@ -1,0 +1,65 @@
+
+.Competition_Etud .Container_data_table_competition{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.Invitation_comp{
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 ;
+    margin-bottom: 15px;
+    background-color: #e7e7e7;
+}
+.Invitation_comp p{
+    text-align: center;
+}
+.content_btn_inv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+/* btn invitation  */
+.content_btn_inv button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #777;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+   }
+   
+.content_btn_invbutton:hover {
+    background: #ccc;
+   }
+   
+.content_btn_invbutton > i {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+   }
+   
+.content_btn_inv button:hover svg {
+    transform: translateX(5px);
+   }
+   
+.content_btn_inv button:active {
+    transform: scale(0.95);
+   }
+/* btn invitation  */
+
+.Invitation_comp .span_invit_comp{
+    color: cornflowerblue;
+
+}
+.Invitation_comp .module_invetation_comp{
+    font-weight: bold;
+}
